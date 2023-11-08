@@ -1,0 +1,128 @@
+header {
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+header.visible {
+    transform: translateY(0%);
+}
+
+#main {
+    background-image: linear-gradient(#000000b0, #000000b0), url(./src/conact-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#main > img {
+    height: 76vh;
+    position: absolute;
+    left: -13%;
+    top: 45%;
+    transform: translateY(-50%);
+    filter: brightness(50%);
+}
+
+#main > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    transform: translate(-30%, -50%);
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    background-color: #000000;
+}
+
+#main > div > * {
+    max-width: 50%;
+}
+
+#main > div hr {
+    margin: 30px;
+    border: none;
+    background-color: white;
+    width: 2px;
+}
+
+#main div > section h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+#main div > section ul {
+    padding: 10px 20px;
+    list-style-type: none;
+}
+
+#main div > section ul li {
+    line-height: 20px;
+}
+
+#main div > section ul li:nth-child(6) img {
+    transform: translateY(12px);
+}
+
+#main div > section ul li:nth-child(7) {
+    padding-left: 30px;
+}
+
+#main div > section ul li img {
+    width: 20px;
+    padding-right: 10px;
+    transform: translateY(5px);
+    display: inline-block;
+}
+
+#main div form {
+    display: flex;
+    flex-direction: column;
+}
+
+#main div form > section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main div form > section section {
+    width: 45%;
+}
+
+#main div form > section section > * {
+    width: 100%;
+}
+
+#main div form label {
+    color: white;
+    display: block;
+    padding: 5px 0px;
+    margin-top: 20px;
+    color: #aaaaaa;
+}
+
+#main input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-inline-start: 5px;
+}
+
+#main input[type="submit"] {
+    border: none;
+    margin-top: 20px;
+    align-self: flex-end;
+    padding: 5px 15px;
+    line-height: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    width: fit-content;
+}
+
+#main textarea {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product | Fruit Fusion</title>
+        <link rel="shortcut icon" href="./src/fav.jpeg" type="image/jpg" />
+        <link rel="stylesheet" href="common.css" />
+        <link rel="stylesheet" href="product.css" />
+    </head>
+    <body>
+        <header class="visible">
+            <span>Fruit Fusion</span>
+            <section>
+                <a href="./index.html">Home</a>
+                <a href="./products.html">Shop</a>
+                <a href="./about.html">About Us</a>
+                <a href="./contact.html">Contact Us</a>
+            </section>
+            <div class="searh-cnt">
+                <!-- <img src="./src/search.png" alt="🔍" />
+                    <input type="text" pattern="[A-Za-z]+" /> -->
+                <a href="./contact.html"><img src="./src/call.png" alt="🔍" /></a>
+            </div>
+        </header>
+
+        <div id="main">
+            <div class="mask"></div>
+            <img class="arrow" onclick="switchItem('l')" src="./src/arrow.svg" alt="<" />
+            <img class="arrow" onclick="switchItem('r')" src="./src/arrow.svg" alt=">" />
+            <section id="intro" class="ent1">
+                <h1></h1>
+                <br />
+                <h2></h2>
+                <br />
+                <p></p>
+            </section>
+            <img id="product-image" src="" alt="IMAGE" />
+            <section id="det">
+                <div>
+                    <img src="" alt="Picture" />
+                    <img src="" alt="Picture" />
+                    <img src="" alt="Picture" />
+                </div>
+                <span onclick="expand(0)">Description</span>
+                <hr />
+                <p class="desc"></p>
+                <span onclick="expand(1)">ingredients</span>
+                <hr />
+                <p class="ingredients"></p>
+            </section>
+        </div>
+
+        <footer></footer>
+        <script src="./src/product-data.js"></script>
+        <script src="./product.js"></script>
+    </body>
+</html>

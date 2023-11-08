@@ -1,0 +1,153 @@
+#main {
+    background-image: url(./src/blue-lagoon-cocktail.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#main .mask {
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(4px) brightness(30%);
+}
+
+#intro {
+    position: absolute;
+    left: 13%;
+    max-width: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#intro > * {
+    color: #bababa;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+#intro.ent1 > * {
+    animation-name: intro-item-e1;
+}
+
+#intro.ent2 > * {
+    animation-name: intro-item-e2;
+}
+
+@keyframes intro-item-e1 {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes intro-item-e2 {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+#intro h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+#product-image {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    height: 65%;
+}
+
+#det {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    max-width: 500px;
+    width: 30%;
+    /* border: 1px solid white; */
+}
+
+#det div img {
+    aspect-ratio: 1/1;
+    height: 6vw;
+    border-radius: 18%;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#det span {
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    width: 46%;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+#det span::after {
+    content: "+";
+    float: right;
+    font-size: 2rem;
+}
+
+#det hr {
+    width: 50%;
+}
+
+#det p {
+    font-size: 1rem;
+    text-align: justify;
+    padding: 10px 0px;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: 1s;
+    display: none;
+    transform: translateY(20px);
+}
+
+#det p.expand {
+    display: block;
+    animation-name: det-item-e;
+}
+
+@keyframes det-item-e {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+img.arrow {
+    position: absolute;
+    top: calc(50% - 13px);
+    height: 50px;
+    right: 10px;
+    cursor: pointer;
+}
+
+img.arrow:nth-child(1) {
+    right: unset;
+    left: 10px;
+    transform: rotateY(180deg);
+}
+
+footer {
+    display: none;
+}
