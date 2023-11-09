@@ -15,7 +15,7 @@ const products = {
         {
             name: "Mai Tai Cocktail",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "$xx.xx",
+            price: "Rs.3500.00",
             tag_line: "Introducing the Mai Tai Cocktail: A Taste of Exotic Paradise",
             desc: "The Mai Tai is more than just a drink; it's a passport to the lush, exotic landscapes of the South Pacific. This classic cocktail embodies the spirit of tiki culture, transporting you to faraway shores, swaying palm trees, and the gentle lull of ocean waves. we invite you to embark on a journey into the world of the Mai Tai, a drink renowned for its tropical allure and captivating blend of flavors.",
             ingredients: `  2 oz (60 ml) dark rum
@@ -30,7 +30,7 @@ const products = {
         {
             name: "Margarita Cocktail",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "$xx.xx",
+            price: "Rs.3200.00",
             tag_line: "Introducing the Margarita Cocktail: A Zesty and Timeless Classic",
             desc: "The Margarita is more than just a drink; it's a vibrant and spirited celebration of flavors that dance on the palate. This iconic cocktail is synonymous with lively gatherings, warm summer evenings, and the zest of Mexican culture. we invite you to explore the world of the Margarita, a refreshing elixir that continues to captivate with its citrusy allure and the joy it brings to those who savor it.",
             ingredients: `  2 oz (60 ml) tequila
@@ -57,7 +57,7 @@ const products = {
         {
             name: "Piña Colada Cocktail",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "$xx.xx",
+            price: "Rs.2300.00",
             tag_line: "Introducing the Piña Colada: A Taste of the Tropics",
             desc: "The Piña Colada is more than just a cocktail; it's a sensory voyage to the sun-soaked beaches of the Caribbean, where swaying palm trees and gentle ocean breezes set the stage for pure relaxation. This iconic drink, with its lush and creamy blend of pineapple and coconut, has captured the essence of tropical paradise and become a symbol of escapism. ",
             ingredients: `  2 oz (60 ml) white rum
