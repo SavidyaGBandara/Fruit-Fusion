@@ -74,7 +74,7 @@ const products = {
         {
             name: "Apple Juice",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1000.00",
             tag_line: "Introducing Apple Juice: A Glass of Orchard-Fresh Bliss",
             desc: "Apple juice is more than just a beverage; it's a refreshing journey into the heart of orchards and the pure, unadulterated essence of apples. This beloved and timeless drink has been a staple in homes and lunchboxes, offering a crisp and invigorating taste that's adored by young and old alike",
             ingredients: "Apple juice is typically produced by crushing apples to extract their juice.",
@@ -82,7 +82,7 @@ const products = {
         {
             name: "Blueberry Juice",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2100.00",
             tag_line: "Introducing Blueberry Juice: A Burst of Berry Goodness",
             desc: "Blueberry juice is more than just a drink; it's a vibrant explosion of flavor and a celebration of one of nature's most beloved superfoods. This delightful beverage is known for its rich, fruity taste and the many health benefits it offers.",
             ingredients:
@@ -91,7 +91,7 @@ const products = {
         {
             name: "Lime Juice",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1000.00",
             tag_line: "Introducing Lime Juice: A Zesty Burst of Citrus Freshness",
             desc: "Lime juice is more than just a pantry staple; it's a burst of citrusy freshness that invigorates our senses and elevates the flavors of countless culinary creations. This tangy elixir is celebrated for its ability to add zing and vibrancy to a wide array of dishes, making it a kitchen essential for both professional chefs and home cooks.",
             ingredients:
@@ -100,7 +100,7 @@ const products = {
         {
             name: "Orange Juice",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1200.00",
             tag_line: "Introducing Orange Juice: A Ray of Sunshine in a Glass",
             desc: "Orange juice is more than just a beverage; it's a burst of sunshine and citrusy delight that brightens up our mornings and refreshes our senses. This iconic drink, made from the liquid extracted from freshly squeezed oranges, is beloved for its sweet, tangy, and invigorating flavor",
             ingredients:
@@ -109,7 +109,7 @@ const products = {
         {
             name: "Pineapple Juice",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1200.00",
             tag_line: "Introducing Pineapple Juice: A Taste of Tropical Paradise",
             desc: "Pineapple juice is more than just a drink; it's a sip of tropical sunshine and a journey to exotic destinations. This refreshing elixir is made from the liquid extracted from the sweet and tangy fruit of the pineapple. Known for its delightful flavor and associations with tropical getaways, pineapple juice is a beloved beverage that evokes a sense of vacation in every glass",
             ingredients: "Pineapple juice is typically made by extracting the juice from fresh pineapple fruit. ",
@@ -131,7 +131,7 @@ const products = {
         {
             name: "Avocado and Banana Smoothie",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1700.00",
             tag_line: "Introducing the Creamy Delight of Avocado and Banana Smoothie",
             desc: "The avocado and banana smoothie is not just a drink; it's a creamy and nutritious masterpiece that tantalizes the taste buds while offering a burst of health benefits. This delightful concoction combines the rich and nutty essence of avocados with the natural sweetness of ripe bananas. It's a popular choice for those seeking a tasty and nourishing snack or breakfast option.",
             ingredients: `  1 ripe avocado, peeled and pitted
@@ -145,7 +145,7 @@ const products = {
         {
             name: "Mango Pineapple Smoothie",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2100.00",
             tag_line: "Introducing the Tropical Bliss of Mango Pineapple Smoothie",
             desc: "The mango pineapple smoothie is more than just a beverage; it's a sip of paradise that transports your taste buds to a tropical wonderland. This refreshing concoction marries the succulent sweetness of ripe mangoes with the zesty tang of pineapples, creating a symphony of tropical flavors. It's not only a delectable treat but also a nutritious option for a quick breakfast, a post-workout refreshment, or a delightful snack.",
             ingredients: `  1 cup of ripe mango chunks (fresh or frozen)
@@ -159,7 +159,7 @@ const products = {
         {
             name: "Minty Watermelon Smoothie",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1900.00",
             tag_line: "Introducing the Cool Refreshment of a Minty Watermelon Smoothie",
             desc: "The minty watermelon smoothie is not just a drink; it's a refreshing oasis in a glass that combines the sweet and hydrating nature of watermelon with the cool, invigorating essence of fresh mint. This smoothie is a delightful and revitalizing choice, offering a burst of natural flavor and the refreshing properties of mint",
             ingredients: `  2 cups of fresh watermelon chunks (seedless)
@@ -172,7 +172,7 @@ const products = {
         {
             name: "Strawberry Banana Smoothie",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1750.00",
             tag_line: "Introducing the Classic Delight of a Strawberry Banana Smoothie",
             desc: "The strawberry banana smoothie is not just a beverage; it's a timeless and delightful fusion of flavors that combines the sweet and tangy allure of ripe strawberries with the natural creaminess of bananas. This smoothie is a beloved choice for a quick breakfast, a satisfying snack, or a post-workout refreshment.",
             ingredients: `  1 cup of ripe strawberries (fresh or frozen)
@@ -185,7 +185,7 @@ const products = {
         {
             name: "Tropical Mango Passion Smoothie",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1950.00",
             tag_line: "Introducing the Exotic Sensation of a Tropical Mango Passion Smoothie",
             desc: "The tropical mango passion smoothie is a sip of the exotic, a taste of the tropics, and a celebration of vibrant flavors. This luscious concoction unites the sweet and tropical allure of mango with the zesty tang of passion fruit. It's a refreshing and invigorating choice, perfect for starting your day with a burst of sunshine, replenishing your energy post-workout, or indulging in a tropical escape anytime.",
             ingredients: `  1 cup of ripe mango chunks (fresh or frozen)
@@ -204,7 +204,7 @@ const products = {
         {
             name: "Blueberry Tea",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2450.00",
             tag_line: "Introducing the Delight of Blueberry Tea: A Sip of Berry Bliss",
             desc: "Blueberry tea is a journey through the luscious world of ripe, succulent blueberries. This aromatic infusion is created from the dried leaves or fruits of the blueberry plant, and it's known for its sweet and slightly tart flavor profile. Whether you're in search of a refreshing beverage, a potential boost of antioxidants, or simply a delightful cup to savor, blueberry tea offers a sensory experience that's both soothing and tantalizing",
             ingredients:
@@ -213,7 +213,7 @@ const products = {
         {
             name: "Lemon Ginger Tea",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2300.00",
             tag_line: "Introducing the Zesty Warmth of Lemon Ginger Tea: A Sip of Comfort and Wellness",
             desc: "Lemon ginger tea is not just a beverage; it's a soothing infusion that combines the zest of lemon with the warmth of ginger, offering a delightful balance of flavors and potential health benefits. This aromatic and invigorating brew is created by steeping fresh ginger root or dried ginger slices alongside the vibrant essence of lemon. It's cherished for its ability to comfort the senses and provide a potential boost to well-being.",
             ingredients:
@@ -222,7 +222,7 @@ const products = {
         {
             name: "Peach Tea",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2100.00",
             tag_line: "Introducing the Sweet Symphony of Peach Tea: A Sip of Summer All Year Round",
             desc: "Peach tea is a captivating infusion that marries the natural sweetness of ripe peaches with the comforting embrace of tea. This delightful and fruity blend captures the essence of summer, making it a favorite choice for tea enthusiasts looking to savor the taste of sunshine.",
             ingredients: "It is flavored with natural peach flavor, peach juice, or peach puree.",
@@ -230,7 +230,7 @@ const products = {
         {
             name: "Strawberry Black Tea",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2150.00",
             tag_line: "Introducing the Harmony of Strawberry Black Tea: Where Bold Meets Sweet",
             desc: "Strawberry black tea is a harmonious fusion of the bold and robust character of black tea with the sweet and fruity essence of ripe strawberries. This unique blend offers a rich and aromatic tea-drinking experience that is cherished by tea enthusiasts.",
             ingredients:
@@ -244,7 +244,7 @@ const products = {
         {
             name: "Banana Milkshake",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1950.00",
             tag_line: "Introducing the Creamy Delight of a Banana Milkshake: A Classic and Wholesome Treat",
             desc: "A banana milkshake is a timeless and indulgent creation that brings together the natural sweetness and creaminess of ripe bananas with the comfort of milk. This classic treat is celebrated for its delicious simplicity, making it a favorite choice for people of all ages. we invite you to explore the world of the banana milkshake and discover why it's cherished for its rich flavor, creamy texture, and the wholesome nourishment it offers.",
             ingredients: `  2 ripe bananas (peeled and sliced)
@@ -257,7 +257,7 @@ const products = {
         {
             name: "Blueberry Milkshake",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1750.00",
             tag_line: "Introducing the Berry Bliss of a Blueberry Milkshake: A Creamy Delight for Your Senses",
             desc: "A blueberry milkshake is a delectable fusion of the vibrant and slightly tart flavor of blueberries with the luscious creaminess of milk and ice cream. This indulgent treat is a celebration of freshness, a sweet symphony of flavors, and a delightful escape into the world of blueberries.",
             ingredients: `  1 cup of fresh or frozen blueberries
@@ -270,7 +270,7 @@ const products = {
         {
             name: "Mango Milkshake",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1900.00",
             tag_line: "Introducing the Tropical Delight of a Mango Milkshake: Sip the Sunshine",
             desc: "A mango milkshake is a tropical journey that brings the lush and sun-kissed flavors of ripe mangoes into a creamy, indulgent embrace of milk and ice cream. This delightful and refreshing treat is a tribute to the vibrant sweetness of mangoes, transporting you to the exotic world of tropical paradise.It is cherished for its sunny taste, creamy texture, and the sheer joy it brings to every sip.",
             ingredients: `  2 ripe and peeled mangoes (you can use fresh or frozen mango chunks)
@@ -283,7 +283,7 @@ const products = {
         {
             name: "Pineapple Milkshake",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.2300.00",
             tag_line:
                 "Introducing the Exotic Refreshment of a Pineapple Milkshake: A Taste of the Tropics in Every Sip",
             desc: "A pineapple milkshake is not just a beverage; it's a journey to the tropics, a celebration of the refreshing and tangy flavor of ripe pineapples, and a creamy indulgence that transports you to a paradise of flavors. This exotic and sweet treat is a delightful escape, bringing the sunshine and warmth of tropical destinations to your taste buds.",
@@ -296,7 +296,7 @@ const products = {
         {
             name: "Strawberry Milkshake",
             pics: ["main.png", "1.png", "2.png", "3.png"],
-            price: "Rs.1100.00",
+            price: "Rs.1800.00",
             tag_line: "Introducing the Luscious Sweetness of a Strawberry Milkshake: A Classic Treat for All Ages",
             desc: "A strawberry milkshake is a classic and timeless indulgence that marries the sweet and vibrant flavor of ripe strawberries with the creamy richness of milk and ice cream. This beloved treat is cherished by people of all ages for its delicious simplicity and the joy it brings with every sip. ",
             ingredients: `  2 cups of fresh or frozen strawberries (hulled and washed)
