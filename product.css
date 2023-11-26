@@ -2,12 +2,13 @@
     background-image: url(./src/blue-lagoon-cocktail.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 #main .mask {
     height: 100vh;
     width: 100vw;
-    backdrop-filter: blur(4px) brightness(30%);
+    backdrop-filter: blur(2px) brightness(40%);
 }
 
 #intro {
@@ -77,6 +78,8 @@
     max-width: 500px;
     width: 30%;
     /* border: 1px solid white; */
+    max-height: 68%;
+    overflow: hidden;
 }
 
 #det div img {
@@ -91,7 +94,7 @@
     text-transform: uppercase;
     display: block;
     padding: 10px;
-    width: 46%;
+    width: 60%;
     line-height: 2rem;
     cursor: pointer;
 }
@@ -103,7 +106,7 @@
 }
 
 #det hr {
-    width: 50%;
+    width: 60%;
 }
 
 #det p {
@@ -118,9 +121,42 @@
     transform: translateY(20px);
 }
 
+#det span.expand::after {
+    content: "-";
+    transform: translateY(-3px);
+}
+
+#det span.expand + hr {
+    display: none;
+}
+
 #det p.expand {
     display: block;
     animation-name: det-item-e;
+}
+
+#det div {
+    margin-top: 15px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#det div a {
+    color: white;
+    display: block;
+    padding: 5px;
+    padding-inline: 8px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#det div a:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
 }
 
 @keyframes det-item-e {
@@ -142,7 +178,7 @@ img.arrow {
     cursor: pointer;
 }
 
-img.arrow:nth-child(1) {
+img.arrow:nth-child(2) {
     right: unset;
     left: 10px;
     transform: rotateY(180deg);

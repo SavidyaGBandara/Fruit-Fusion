@@ -84,15 +84,20 @@ header.visible {
     justify-content: center;
 }
 
-#products > div > img {
-    margin: 10px;
+#products > div > a {
+    display: block;
     height: 200px;
-    border-radius: 10%;
+    margin: 10px;
     animation-name: c-item-e;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
     transform: translateY(50%);
     opacity: 0;
+}
+
+#products > div a img {
+    height: 200px;
+    border-radius: 10%;
 }
 
 @keyframes c-item-e {

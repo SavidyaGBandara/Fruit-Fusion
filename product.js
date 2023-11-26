@@ -1,5 +1,6 @@
 const url_params = new URL(window.location.href).searchParams;
 var itemType = url_params.get("type");
+var item_name = url_params.get("item");
 
 if (!itemType || typeof products == undefined)
     window.location.href =
@@ -7,11 +8,10 @@ if (!itemType || typeof products == undefined)
 
 if (!Object.keys(products).includes(itemType)) itemType = Object.keys(products)[0];
 const items = products[itemType];
-var curr_item = 0;
 
 const item_i = {
     len: items.length - 1,
-    i: 0,
+    i: products[itemType].findIndex((item) => item.name.toLowerCase().replaceAll(" ", "_") == item_name) || 0,
     next: function () {
         this.i < this.len ? this.i++ : (this.i = 0);
         return this.i;
@@ -25,15 +25,19 @@ const item_i = {
 var prev_expand_pos;
 var expanded = null;
 const elm_exp_contents = document.querySelectorAll("#det > p");
+const elm_exp_btns = document.querySelectorAll("#det > span");
 function expand(pos) {
     if (expanded === null) {
+        elm_exp_btns[pos].classList.add("expand");
         elm_exp_contents[pos].classList.add("expand");
         expanded = pos;
         return;
     }
 
+    elm_exp_btns[expanded].classList.remove("expand");
     elm_exp_contents[expanded].classList.remove("expand");
     if (expanded != pos) {
+        elm_exp_btns[pos].classList.add("expand");
         elm_exp_contents[pos].classList.add("expand");
         expanded = pos;
     } else {

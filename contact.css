@@ -13,29 +13,28 @@ header.visible {
     background-position: center;
 }
 
-#main > img {
-    height: 76vh;
-    position: absolute;
-    left: -13%;
-    top: 45%;
-    transform: translateY(-50%);
-    filter: brightness(50%);
-}
-
 #main > div {
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 20px;
-    transform: translate(-30%, -50%);
+    /* padding: 20px; */
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 75%;
     background-color: #000000;
 }
 
+#main > div > img {
+    filter: brightness(50%);
+    background-color: white;
+    display: block;
+    object-fit: cover;
+    object-position: left;
+}
+
 #main > div > * {
-    max-width: 50%;
+    max-width: 33%;
 }
 
 #main > div hr {
@@ -50,9 +49,15 @@ header.visible {
     padding: 20px;
 }
 
+#main div > section {
+    padding: 20px;
+    background-color: black;
+}
+
 #main div > section ul {
     padding: 10px 20px;
     list-style-type: none;
+    min-width: 218px;
 }
 
 #main div > section ul li {
@@ -67,6 +72,14 @@ header.visible {
     padding-left: 30px;
 }
 
+#main div > section ul li:nth-child(8) img {
+    transform: translateY(12px);
+}
+
+#main div > section ul li:nth-child(9) {
+    padding-left: 30px;
+}
+
 #main div > section ul li img {
     width: 20px;
     padding-right: 10px;
@@ -74,9 +87,12 @@ header.visible {
     display: inline-block;
 }
 
+/* Form */
 #main div form {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    min-width: 225px;
 }
 
 #main div form > section {

@@ -1,3 +1,7 @@
+document.body.onload = () => {
+    document.body.classList.add("loaded");
+};
+
 const elm_header = document.querySelector("header");
 const elm_lnd_main = document.querySelector("#lnd > img.lnd-main");
 const elm_lnd_text = document.querySelector("#lnd > section");
